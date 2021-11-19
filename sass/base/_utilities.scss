@@ -1,10 +1,18 @@
-//Aligning text
 .u-center-text {
   text-align: center;
 }
-//Margin
-.u-mb-8 {
-  margin-bottom: 8rem;
+.u-container {
+  max-width: 85%;
+  margin: 0 auto;
 }
 
-//Padding
+//Margin
+.u-mb-big {
+  margin-bottom: 8rem;
+}
+.u-mb-medium {
+  margin-bottom: 4rem;
+}
+.u-mb-small {
+  margin-bottom: 1.5rem;
+}

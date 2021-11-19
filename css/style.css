@@ -86,6 +86,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-mb-8 {
+  margin-bottom: 8rem; }
+
 .btn {
   /*pseudo element*/ }
   .btn:link, .btn:visited {
@@ -145,6 +148,15 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.row {
+  display: flex; }
+
+.column {
+  flex-direction: column; }
+
+.col-1-of-2 {
+  width: 50%; }
 
 .section-about {
   background: #f7f7f7;
